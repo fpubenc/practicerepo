@@ -1,0 +1,64 @@
+html, body { 
+    height:100%; 
+}
+body {
+    background-color: lightblue;
+    font-family: 'Permanent Marker', cursive;
+    font-size: x-large;
+}
+.header-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.header {
+    display: flex;
+    justify-content: space-around;
+}
+.imgContainerHead img {
+    height: 200px;
+    width: auto;
+    border-radius: 60px;
+}
+.logoRow {
+    display: flex;
+    justify-content: center;
+    height: 40px;
+}
+.logoCol img{
+    height: 40px;
+    margin: 20px;
+}
+.logoColTransform img{
+    height: 50px;
+    margin: 15px;
+}
+#bottomContainer {
+    display: flex;
+    justify-content: space-around;
+}
+.footerContainer {
+    display: flex;
+    justify-content: center;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    font-size: large;
+
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+.main {
+    flex: 1;
+  }
+.footerElem {
+    margin: 5px 30px;
+}
+.email img{
+    height: 12px;
+    width: auto;
+}
